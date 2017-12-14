@@ -47,7 +47,8 @@ Customización ARAMIS Soluciones IT
         'l10n_ar_aeroo_purchase',  # dependencia requerida
         'l10n_ar_aeroo_einvoice',  # dependencia requerida
         'l10n_ar_aeroo_stock',  # dependencia requerida
-        'l10n_ar_aeroo_voucher', # dependencia requerida
+        'l10n_ar_aeroo_voucher',  # dependencia requerida
+        'l10n_ar_states',
         'account_invoice_tax_add',  # agrega insercion manual de impuestos para factura de compras
         'product_unique_default_code',  # impide que se duplique el default_code
         'hide_messaging',  # oculta el menu de mensajeria
@@ -57,6 +58,11 @@ Customización ARAMIS Soluciones IT
         #'account_transfer',  # permite hacer transferencia entre cuentas
         'web_export_view',   # reportes en excel de cualquier vista.
 #        'currency_rate_update' # actualiza tipo de cambio
+
+        #  Qplicaciones requeridas
+        'sale',
+        'purchase',
+        'point_of_sale'
 
     ],
     'data': [
