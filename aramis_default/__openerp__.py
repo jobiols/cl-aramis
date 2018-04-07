@@ -20,7 +20,7 @@
 # -----------------------------------------------------------------------------------
 
 {
-    'name': 'aramis',
+    'name': 'ARAMIS Soluciones IT',
     'version': '8.0.1.0',
     'category': 'Tools',
     'summary': 'Customización ARAMIS',
@@ -76,7 +76,7 @@ Customización ARAMIS Soluciones IT
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-sams', 'branch': '9.0'},
+        {'usr': 'jobiols', 'repo': 'cl-aramis', 'branch': '9.0'},
         {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
 
     ],
