@@ -76,15 +76,14 @@ Customización ARAMIS Soluciones IT
 
     'port': '8069',
     'repos': [
-        {'usr': 'jobiols', 'repo': 'cl-aramis', 'branch': '9.0'},
-        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '9.0'},
+        {'usr': 'jobiols', 'repo': 'cl-aramis', 'branch': '8.0'},
+        {'usr': 'jobiols', 'repo': 'odoo-addons', 'branch': '8.0'},
 
     ],
     'docker': [
         {'name': 'aeroo', 'usr': 'jobiols', 'img': 'aeroo-docs'},
-        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '9.0'},
+        {'name': 'odoo', 'usr': 'jobiols', 'img': 'odoo-jeo', 'ver': '8.0'},
         {'name': 'postgres', 'usr': 'postgres', 'ver': '9.5'},
-        {'name': 'nginx', 'usr': 'nginx', 'ver': 'latest'}
     ]
 
 }
