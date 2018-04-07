@@ -20,7 +20,7 @@
 # -----------------------------------------------------------------------------------
 
 {
-    'name': 'ARAMIS Soluciones IT',
+    'name': 'aramis',
     'version': '8.0.1.0',
     'category': 'Tools',
     'summary': 'Customización ARAMIS',
